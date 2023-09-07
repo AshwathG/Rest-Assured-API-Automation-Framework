@@ -1,0 +1,8 @@
+{
+	"name":"String",
+	"job":"String",
+	"address":{ 
+		"locality": "String",
+		"city":"String"
+		}
+}
