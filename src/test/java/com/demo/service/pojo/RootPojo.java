@@ -1,5 +1,5 @@
 
-package com.demo.generatedjsonpojo;
+package com.demo.service.pojo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -24,7 +24,7 @@ public class ConvertJsonToJavaHelper {
 		URL inputJsonUrl = new URL("file:///" +absolutePath);
 		
 		File file = new File("src/test/java");
-		convertJsonToJavaClass(inputJsonUrl, file, "com.demo.generatedjsonpojo", "RootPojo");
+		convertJsonToJavaClass(inputJsonUrl, file, "com.demo.service.pojo", "RootPojo");
 	}
 	
 	public static void convertJsonToJavaClass(URL inputJsonUrl, File outputJavaClassDirectory, String packageName, String javaClassName) throws IOException 
